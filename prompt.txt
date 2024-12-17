@@ -1,0 +1,33 @@
+We are about to start a typescript project that will be a RESTful API to interact with a Telegram Bot.
+This application will receive request from the Telegram servers and parse it to then be processed by Google Gemini LLM.
+This processing can result into function calling that will be parsed again to be then running the appropriate methods.
+This bot will be used by our church members. One of the core features is to CRUD the room availabilities.
+The code will then return responses over http to the Telegram chatbot.
+
+Stack:
+- typescript
+- express
+- postgresql
+- pg
+- docker
+
+
+Telegram documentation:
+https://core.telegram.org/bots/api
+
+Google Gemini documentation:
+https://ai.google.dev/gemini-api/docs/quickstart?lang=node
+
+
+Start by building the project structure.
+Create a dockerfile that will build the project.
+Create a docker compose file that will run the project.
+Use the .env file with some setup already on it.
+Create .gitignore file that will ignore the node_modules folder and other considerable files.
+
+ALWAYS consider the security of the code.
+ALWAYS consider the best practices of the code.
+ALWAYS consider the performance of the code.
+ALWAYS consider the maintainability of the code.
+
+Lets get to it!
